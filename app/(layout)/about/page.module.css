@@ -1,0 +1,146 @@
+.title h1 {
+    display: block;
+    width: 801px;
+    height: 82px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 82px;
+    color: #eb5e55;
+}
+
+.title h1::after {
+    content: "";
+    display: inline-block;
+    width: 29px;
+    height: 3px;
+    margin: 0 0 0 4px;
+    background: var(--primary-coloText);
+}
+
+
+
+.image {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.text {
+    max-width: 1200px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    font: 500 16px/22px "Argesta", sans-serif;
+    transition: padding 0.2s;
+    color: var(--primary-coloText);
+    color: #0A3854;
+    border-bottom: 2px solid #0A3854;
+}
+
+
+.text h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Argesta Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    text-align: center;
+    color: #0A3854;
+
+
+}
+
+.ul {
+    padding: 1rem;
+}
+
+.li::before {
+    content: "";
+    background: #ff5f55;
+    width: 12px;
+    height: 2px;
+    position: absolute;
+    top: 13px;
+    left: 0;
+    font: inherit;
+}
+
+.li {
+    font-family: "Argesta";
+    transition: margin 0.2s ease;
+    position: relative;
+}
+
+
+.p {
+    font-weight: 500;
+    font-stretch: normal;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Argesta Display", sans-serif;
+    margin-bottom: 2vh !important;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.global_info_section {
+    background-color: var(--primary-coloText);
+    width: 100%;
+}
+
+.info_section {
+    display: flex;
+    text-wrap: wrap;
+    justify-self: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 0 23px;
+    justify-content: center;
+    transition: padding 0.2s ease;
+    padding: 60px 118px;
+    border-radius: 1.5rem;
+    max-width: 100%;
+    background-color: #0a3854;
+}
+
+.info_section_h2 {
+    display: flex;
+    font: 400 31px/36px "Argesta", sans-serif;
+    margin: 0 0 40px;
+    color: #fff;
+    width: 100%;
+    max-width: 800px;
+}
+
+.p_info_section {
+    font-family: "Argesta";
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-wrap: wrap;
+    color: #fff;
+
+}
+
+.text h2 {
+    font-weight: 500;
+    font-stretch: normal;
+    font-size: 25px;
+    line-height: 31px;
+    font-family: "Argesta", sans-serif;
+}
+
+.text h3 {
+    font-weight: 500;
+    font-stretch: normal;
+    font-size: 25px;
+    line-height: 31px;
+    font-family: "Argesta", sans-serif;
+}

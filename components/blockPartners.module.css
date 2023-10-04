@@ -1,0 +1,75 @@
+.objetive {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0 0;
+    color: var(--primary-coloText);
+}
+
+.objetive h2 {
+    font: 500 33px/36px "Argesta Display", sans-serif;
+}
+
+.block_partners {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    max-width: 700px;
+    margin: 0 auto 60px;
+    gap: 40px;
+
+}
+
+.img_wrap {
+    min-height: 125px;
+    display: flex;
+    justify-content: center;
+    min-width: 300px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.block_partners a {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.block_partners p {
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 17.5px;
+    line-height: 20px;
+    font-family: "Argesta", sans-serif;
+    color: #0a3854;
+}
+
+.icon {
+    position: relative;
+    margin: 40px 0 0;
+    color: #0a3854;
+}
+
+.icon::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--primary-coloText);
+    width: 36px;
+    height: 8px;
+}
+
+.icon::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--primary-coloText);
+    width: 36px;
+    height: 8px;
+}

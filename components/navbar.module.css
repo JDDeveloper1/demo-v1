@@ -1,0 +1,49 @@
+.navHeader {
+    position: fixed;
+    background: var(--primary-coloText);
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    color: var(--white);
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 2rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navHeader ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.navHeader ul li {
+    list-style: none;
+    border-right: 2px solid #fff;
+    padding-right: 20px;
+}
+
+.navHeader li:last-child {
+    border-right: none;
+}
+
+.navHeader ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.redLink {
+    background-color: #eb5e55;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 10px 5px 30px;
+    text-align: right;
+    background: #eb5e55 url("../public/img/human.svg") no-repeat 5% 50%;
+    ;
+}

@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:wght@300;400;500;700;800;900&family=Raleway:wght@700;800;900&display=swap');
+
+
+:root {
+  --foreground-rgb: 000, 000, 000;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+
+  --primary-coloText: #0a3854;
+  --secondary: #eb5e55;
+  --color_background: #f1f2f6;
+  --color_boxShadowChecks: #cf2e2e91;
+  --white: #FFF;
+  --fuente-principal: 'Montserrat', sans-serif;
+}
+
+
+
+html,
+body {
+  color: var (var(--primary-coloText));
+  background: rgb(10, 56, 84);
+  background: linear-gradient(0deg, rgba(169, 214, 242, 0.572) 0%, rgba(255, 255, 255, 0.8743872549019608) 46%);
+  font-family: var(--fuente-principal);
+}
+
+main {
+  color: #0a3854;
+}
